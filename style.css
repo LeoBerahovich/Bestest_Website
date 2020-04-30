@@ -1,0 +1,185 @@
+.content1 {
+    background: hotpink;
+    color: #323232;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Helvetica neue, roboto;
+    cursor: wait;
+}
+
+.content2 {
+    background-image: url(images/suffer5.png);
+    color: #323232;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Helvetica neue, roboto;
+    cursor: zoom-in;
+}
+
+.content3{
+    background-image: url(images/suffer7.gif);
+    color: #323232;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Helvetica neue, roboto;
+    cursor: wait;
+    height: 9999px;
+    width: 9999px;
+}
+.content4{
+    background-image: url(images/suffer9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.f1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.f2{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+}
+
+.goodPixel{
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    top: 215px;
+    left: 124px;
+}
+
+.greatPixel{
+    background-color: lime;
+    width: 6px;
+    height: 6px;
+    position: fixed;
+    top: 600px;
+    left: 653px;
+}
+
+.link1{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+}
+
+
+.link2{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 215px;
+    left: 124px;
+}
+
+.link3{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 370px;
+    left: 800px;
+}
+
+.link4{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 800px;
+    left: 50px;
+}
+
+.beeText{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+    color: yellow;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+.beeText2{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+    color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+
+.honey{
+    left: 8765px;
+    top: 5432px;
+}
+
+.img1{
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    top: 400px;
+    left: 1000px;
+}
+
+.img2{
+    position: fixed;
+    top: 300px;
+    left: 9px;
+}
+
+.img3{
+    position: relative;
+    top: 1200px;
+    height: 300px;
+}
+
+.warningText{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 50px;
+    color: magenta;
+}
+
+.actualLink1{
+    position: relative;
+    top: -93px;
+    left: -38px;
+    height: 20px;
+    opacity: 0;
+    cursor: wait;
+}
+
+.bee:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
